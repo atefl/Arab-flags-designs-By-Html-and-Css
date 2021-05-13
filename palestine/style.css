@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+.flag > div {
+    width: 500px;
+    height: 100px;
+}
+.flag .black {
+    background: #000;
+}
+.flag .white {
+    background: #fff;
+}
+.flag .green {
+    background: green;
+}
+.flag::before {
+    content: '';
+    position: absolute;
+    border-width: 150px;
+    left: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent red;
+}
