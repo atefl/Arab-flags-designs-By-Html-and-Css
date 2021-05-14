@@ -1,0 +1,37 @@
+body {
+    position: relative;
+}
+
+.flag {
+    margin: 50px auto;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+.flag div:first-child,
+.flag div:last-child
+ {
+    flex-basis: 25%;
+    background-color: #d62718;
+}
+.flag div:nth-child(2) {
+    flex-basis: 40%;
+    background-color: #fff;
+}
+.flag::before {
+    font-family: 'Font Awesome 5 Brands';
+    content: "\f785";
+    text-align: center;
+    font-weight: 900;
+    font-size: 240px;
+    position: absolute;
+    color: #d62718;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
