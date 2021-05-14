@@ -1,0 +1,146 @@
+.flag {
+    margin: 50px auto;
+    width: 700px;
+    height: 450px;
+    background-color: #001b69;
+    position: relative;
+    overflow: hidden;
+}
+.flag .redLine1 {
+    position: absolute;
+    width: 70px;
+    height: 450px;
+    left: 50%;
+    background-color: #c9072a;
+    z-index: 5;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.flag .redLine2 {
+    position: absolute;
+    width: 700px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    background-color: #c9072a;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.flag .whiteLine1 {
+    position: absolute;
+    width: 125px;
+    height: 450px;
+    left: 50%;
+    background-color: #fff;
+    z-index: 1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.flag .whiteLine2 {
+    position: absolute;
+    width: 700px;
+    height: 125px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+} 
+.flag .frl1 {
+    position: absolute;
+    width: 1000px;
+    height: 25px;
+    top: 56%;
+    left: 50%;
+    transform: translate(-54%, -50%) rotate(-34.6deg);
+    background-color: #c9072a;
+    -webkit-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -moz-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -ms-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -o-transform: translate(-54%, -50%) rotate(-34.6deg);
+    z-index: 0;
+}
+.flag .wfl1 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 31%;
+    left: 76%;
+    transform: translate(-54%, -50%) rotate(-34.6deg);
+    background-color: #fff;
+    -webkit-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -moz-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -ms-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -o-transform: translate(-54%, -50%) rotate(-34.6deg);
+    z-index: 0;
+}
+.flag .wfl2 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 69%;
+    right: 0;
+    transform: translate(-54%, -50%) rotate(-34.6deg);
+    background-color: #fff;
+    -webkit-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -moz-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -ms-transform: translate(-54%, -50%) rotate(-34.6deg);
+    -o-transform: translate(-54%, -50%) rotate(-34.6deg);
+    z-index: 0;
+}
+.wfl1-1 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 34%;
+    left: 28%;
+    transform: translate(-54%, -50%) rotate(33deg);
+    background-color: #fff;
+    -webkit-transform: translate(-54%, -50%) rotate(33deg);
+    -moz-transform: translate(-54%, -50%) rotate(33deg);
+    -ms-transform: translate(-54%, -50%) rotate(33deg);
+    -o-transform: translate(-54%, -50%) rotate(33deg);
+    z-index: 0;
+}
+.wfl2-2 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 70%;
+    left: 76%;
+    transform: translate(-54%, -50%) rotate(33deg);
+    background-color: #fff;
+    -webkit-transform: translate(-54%, -50%) rotate(33deg);
+    -moz-transform: translate(-54%, -50%) rotate(33deg);
+    -ms-transform: translate(-54%, -50%) rotate(33deg);
+    -o-transform: translate(-54%, -50%) rotate(33deg);
+    z-index: 0;
+}
+.flag .frl2 {
+    position: absolute;
+    width: 1000px;
+    height: 25px;
+    top: 47%;
+    left: 50%;
+    transform: translate(-54%, -50%) rotate(33deg);
+    background-color: #c9072a;
+    -webkit-transform: translate(-54%, -50%) rotate(33deg);
+    -moz-transform: translate(-54%, -50%) rotate(33deg);
+    -ms-transform: translate(-54%, -50%) rotate(33deg);
+    -o-transform: translate(-54%, -50%) rotate(33deg);
+    z-index: 0;
+}
