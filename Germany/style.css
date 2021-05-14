@@ -1,0 +1,22 @@
+.flag {
+    margin: 50px auto;
+    width: 500px;
+    height: 300px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.flag > div {
+    width: 500px;
+    height: 100px;
+}
+.flag div:first-child {
+    background-color: #000;
+}
+.flag div:nth-child(2) {
+    background-color: #dd0000;
+}
+.flag div:last-child {
+    background-color: #ffce00;
+}
