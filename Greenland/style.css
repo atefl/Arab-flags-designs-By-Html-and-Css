@@ -1,0 +1,34 @@
+.flag {
+    margin: 50px auto;
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DCDCDC	;
+    position: relative;
+}
+.flag > div {
+    width: 550px;
+    height: calc(350px / 2);
+}
+.flag div:first-child {
+    background: #fff ;
+}
+.flag div:last-child {
+    background: #d10430;
+}
+.flag::before {
+    content: '';
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #d10430 50%, #fff 50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
