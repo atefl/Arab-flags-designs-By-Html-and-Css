@@ -1,0 +1,66 @@
+.flag {
+    margin: 50px auto;
+    width: 600px;
+    height: 400px;
+    background: #00048b;
+    z-index: -1;
+    overflow: hidden;
+}
+.yellow {
+    width: 318px;
+    height: 400px;
+    margin: 33px;
+    border: 30px solid #ffba0d;
+    outline: 100px solid #007945;
+    background: #000;
+    transform: rotate(45deg) translate(-78%, 53%);
+    -webkit-transform: rotate(45deg) translate(-78%, 53%);
+    -moz-transform: rotate(45deg) translate(-78%, 53%);
+    -ms-transform: rotate(45deg) translate(-78%, 53%);
+    -o-transform: rotate(45deg) translate(-78%, 53%);
+}
+.green {
+    width: 367px;
+    height: 93px;
+    background-color: #007945;
+    position: absolute;
+    transform: translate(64%, -264%);
+    border-top: 30px solid #fff;
+    border-bottom: 30px solid #fff;
+}
+.white1 {
+    width: 241px;
+    height: 30px;
+    background-color: #fff;
+    transform: rotate(45deg) translate(-131%, -1233%);
+    -webkit-transform: rotate(45deg) translate(-131%, -1233%);
+    -moz-transform: rotate(45deg) translate(-131%, -1233%);
+    -ms-transform: rotate(45deg) translate(-131%, -1233%);
+    -o-transform: rotate(45deg) translate(-131%, -1233%);
+}
+.white2 {
+    width: 241px;
+    height: 30px;
+    background-color: #fff;
+    transform: rotate(-45deg) translate(79%, -456%);
+    -webkit-transform: rotate(-45deg) translate(79%, -456%);
+    -moz-transform: rotate(-45deg) translate(79%, -456%);
+    -ms-transform: rotate(-45deg) translate(79%, -456%);
+    -o-transform: rotate(-45deg) translate(79%, -456%);
+}
+.flag::before {
+    content: '';
+    width: 601px;
+    height: 200px;
+    background: #e23629;
+    position: absolute;
+    transform: translate(0, 0);
+}
+.flag::after {
+    content: '';
+    width: 356px;
+    height: 124px;
+    background: #00048b;
+    position: absolute;
+    transform: translate(243px, -310px);
+}
